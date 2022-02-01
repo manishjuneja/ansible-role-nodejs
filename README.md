@@ -1,7 +1,5 @@
 # Ansible Role: Node.js
 
-[![CI](https://github.com/geerlingguy/ansible-role-nodejs/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-nodejs/actions?query=workflow%3ACI)
-
 Installs Node.js on RHEL/CentOS or Debian/Ubuntu.
 
 ## Requirements
@@ -67,11 +65,3 @@ None.
     nodejs_npm_global_packages:
       - name: jslint
       - name: node-sass
-
-## License
-
-MIT / BSD
-
-## Author Information
-
-This role was created in 2014 by [Jeff Geerling](https://www.jeffgeerling.com/), author of [Ansible for DevOps](https://www.ansiblefordevops.com/).
